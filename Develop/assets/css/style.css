@@ -7,23 +7,24 @@
 body {
     background-color: #d9dcd6;
 }
-
+/*This section styles the Horiseon and Nav section*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/*This section is set to inline-block to add proper formatting with nav section*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/*This bring dirrent color to "seo"*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/*The nav section is floated: right to fit inline with the "Horiseon"*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -41,15 +42,20 @@ body {
     margin-left: 25px;
 }
 
+/*This sets the color of anchor <a> on nav section */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*This is the font size styling for the article on each sections under <p> */
 p {
     font-size: 16px;
 }
 
+/*This is the styling for the HERO image that covers the webpage. */
+/*hero image is .jpg, width of 100% that covers the webpage from left to right, with a height of 800px*/
+/*heor size is set to cover and positioned centered.*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +65,33 @@ p {
     background-position: center;
 }
 
+/*This affects the image position of Section 1 and 3 set to float left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*This styling is for section 2 image floated to right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*This section styling affects the 3 sections of the main */
+/*The width occupies 75% of the webpage, that makes them stack vertically with display:inline-block*/
+/*Margin-left provides 20px space from the left side of the webpag.*/
+/*The content moves inline with the img*/ 
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*This is the styling for the "aside section"*/
+/*This section is floated on the right, with width 20% and set to clear: both*/
+/*This means that the element occupies 20% width of the webpag, which shares with class=Content*/
+/*The aside section is floated on the right, with no other overlap as set with clear:both*/
+/*The height is set to Horizontal 100% which covers 100% aside section horizontally*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -134,6 +151,7 @@ p {
     max-width: 150px;
 }
 
+/*The following 3 styling sections format the 3 section boxes of the main.*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,6 +179,7 @@ p {
     color: #ffffff;
 }
 
+/* The following 3 sections formats the decorative images for the aside section*/
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -188,6 +207,7 @@ p {
     font-size: 36px;
 }
 
+/*The use clear:both here is play a valuable role as the whole footer section was cleared away from other elements overlapping*/
 .footer {
     padding: 30px;
     clear: both;
